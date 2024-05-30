@@ -17,13 +17,20 @@ Assurez-vous d'avoir les logiciels suivants installés :
 
 Vous pouvez installer les bibliothèques requises avec la commande suivante :
 
+bash
 pip install pandas numpy matplotlib seaborn scikit-learn
-## Installation
+Installation
 Clonez le dépôt GitHub :
-git clone 
+bash
+Copy code
+git clone https://github.com/votre-utilisateur/votre-depot.git
+cd votre-depot
 Assurez-vous d'avoir les fichiers de données nécessaires dans le même répertoire que le notebook Jupyter.
 Utilisation
 Ouvrez le fichier prets_bancaire.ipynb avec Jupyter Notebook :
+
+bash
+Copy code
 jupyter notebook prets_bancaire.ipynb
 Exécutez chaque cellule du notebook pour générer les analyses et les graphiques.
 
@@ -33,6 +40,7 @@ Pour vérifier que tout fonctionne correctement, exécutez les tests inclus dans
 Exemple de test :
 
 python
+Copy code
 # Test de validation des données
 assert len(df) > 0, "Le DataFrame est vide"
 Test des fonctionnalités de transformation des données :
