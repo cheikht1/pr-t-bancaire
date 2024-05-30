@@ -17,7 +17,6 @@ Assurez-vous d'avoir les logiciels suivants installés :
 
 Vous pouvez installer les bibliothèques requises avec la commande suivante :
 
-```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
 ## Installation
 Clonez le dépôt GitHub :
